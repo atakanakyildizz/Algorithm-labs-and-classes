@@ -13,15 +13,15 @@ int main(void) {
         printf("The number must be greater than 0\n");
     }
     else {
-        for (int i = 1; i <= number-1; i++) {
+        for (int i = 2; i <= number-1; i++) {
             if (number % i == 0) {
                 counter++;
             }
             i++;
         }
     }
-    if (counter == 1) {
-        printf("The number %d is a prime\n", number);
+    if (counter == 0) {
+        printf("The number %d is a prime number\n", number);
     }
     else {
         printf("The number %d is not a prime number\n", number);
