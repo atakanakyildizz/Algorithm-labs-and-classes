@@ -11,6 +11,7 @@ int main(void) {
     scanf("%d", &number);
     if (number < 1) {
         printf("The number must be greater than 0\n");
+        return -1;
     }
     else {
         for (int i = 2; i <= number-1; i++) {
