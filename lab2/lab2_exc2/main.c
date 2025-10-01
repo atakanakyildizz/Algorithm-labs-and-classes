@@ -1,6 +1,7 @@
 // Ex 2
 // Array Manipulation Using Pointers
 
+
 #include <stdio.h>
 
 void printArray (int *arr , int size ) ;
